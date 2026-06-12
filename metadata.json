@@ -1,0 +1,6 @@
+{
+  "name": "Vrudheshwar Tractors",
+  "description": "Authorized Dealer for Massey Ferguson and TAFE. Sales, Service, and Spares in Shevgaon and Pathardi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
