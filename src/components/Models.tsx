@@ -3,21 +3,21 @@ import ImageHelper from './ImageHelper';
 import { supabase } from '../lib/supabase';
 
 export const initialTractors = [
-  { id: 1, name: 'MF 241 PD 4WD', hp: '42 HP', feature: 'Unmatched traction and durability', marathi: 'अप्रतिम ट्रॅक्शन आणि टिकाऊपणा', img: '/src/assets/images/mf_241_pd_4wd_1781420204615.jpg' },
-  { id: 2, name: 'TAFE 30 DI Orchard Plus', hp: '30 HP', feature: 'Perfect for orchard farming', marathi: 'फळबागांसाठी एकदम उत्तम', img: '/src/assets/images/tafe_30_di_orchard_1781420223171.jpg' },
-  { id: 3, name: 'MF 6028 Maxpro', hp: '28 HP', feature: 'Compact yet powerful', marathi: 'कॉम्पॅक्ट पण शक्तिशाली', img: '/src/assets/images/mf_6028_maxpro_1781420238675.jpg' },
-  { id: 4, name: 'MF 6026 Maxpro', hp: '26 HP', feature: 'Powerful and reliable performance', marathi: 'शक्तिशाली आणि विश्वासार्ह कामगिरी', img: '/src/assets/images/mf_6026_maxpro_1781416335576.jpg' },
-  { id: 5, name: 'MF 7250 PowerUp', hp: '50 HP', feature: 'Heavy-duty performance', marathi: 'दमदार हेवी-ड्यूटी कामगिरी', img: '/src/assets/images/mf_7250_powerup_1781420256417.jpg' },
-  { id: 6, name: 'MF 9500 Eco', hp: '50 HP', feature: 'Smart series for smart farmers', marathi: 'स्मार्ट शेतकऱ्यांसाठी स्मार्ट मालिका', img: '/src/assets/images/mf_9500_eco_1781420273457.jpg' },
-  { id: 7, name: 'MF 5118 4WD', hp: '20 HP', feature: 'Efficient mini tractor', marathi: 'कार्यक्षम मिनी ट्रॅक्टर', img: '/src/assets/images/mf_5118_4wd_1781420290161.jpg' },
-  { id: 8, name: 'MF 5225 DI', hp: '25 HP', feature: 'Best option for versatile farming', marathi: 'बहुमुखी शेतीसाठी उत्तम पर्याय', img: '/src/assets/images/mf_5225_di_1781416353233.jpg' },
-  { id: 9, name: 'MF 7235 DI', hp: '35 HP', feature: 'Equipped with advanced technology', marathi: 'प्रगत तंत्रज्ञानाने सज्ज', img: '/src/assets/images/mf_7235_di_1781416366866.jpg' },
-  { id: 10, name: '246 Massey Dynatrack', hp: '46 HP', feature: 'Smart tractor for precision farming', marathi: 'अचूक शेतीसाठी स्मार्ट ट्रॅक्टर', img: '/src/assets/images/mf_246_dynasmart_1781416379804.jpg' },
-  { id: 11, name: 'MF 254 Massey Dynatrack', hp: '50 HP', feature: 'Versatile and efficient power', marathi: 'अष्टपैलू आणि कार्यक्षम शक्ती', img: '/src/assets/images/mf_254_dynasmart_1781416393710.jpg' },
-  { id: 12, name: '254 Massey Dynatrack Super Stork', hp: '50 HP', feature: 'Ultimate power and performance', marathi: 'अंतिम शक्ती आणि कार्यक्षमता', img: '/src/assets/images/mf_254_super_stork_1781417732451.jpg' },
-  { id: 13, name: 'MF 7250 DI Challenger', hp: '50 HP', feature: 'Ready for challenging terrains', marathi: 'आव्हानात्मक क्षेत्रांसाठी सज्ज', img: '/src/assets/images/mf_7250_challenger_1781416406643.jpg' },
-  { id: 14, name: 'MF 8055 Boss', hp: '50 HP', feature: 'Truly the boss of the field', marathi: 'शेतीचा खऱ्या अर्थाने बॉस', img: '/src/assets/images/mf_8055_boss_1781416422305.jpg' },
-  { id: 15, name: 'MF 9563', hp: '60 HP', feature: 'Big power for massive challenges', marathi: 'मोठ्या आव्हानांसाठी मोठी शक्ती', img: '/src/assets/images/mf_9563_tractor_1781416436026.jpg' },
+  { id: 1, name: 'MF 241 PD 4WD', hp: '42 HP', feature: 'Unmatched traction and durability', marathi: 'अप्रतिम ट्रॅक्शन आणि टिकाऊपणा', img: '/images/mf_241_pd_4wd_1781420204615.jpg' },
+  { id: 2, name: 'TAFE 30 DI Orchard Plus', hp: '30 HP', feature: 'Perfect for orchard farming', marathi: 'फळबागांसाठी एकदम उत्तम', img: '/images/tafe_30_di_orchard_1781420223171.jpg' },
+  { id: 3, name: 'MF 6028 Maxpro', hp: '28 HP', feature: 'Compact yet powerful', marathi: 'कॉम्पॅक्ट पण शक्तिशाली', img: '/images/mf_6028_maxpro_1781420238675.jpg' },
+  { id: 4, name: 'MF 6026 Maxpro', hp: '26 HP', feature: 'Powerful and reliable performance', marathi: 'शक्तिशाली आणि विश्वासार्ह कामगिरी', img: '/images/mf_6026_maxpro_1781416335576.jpg' },
+  { id: 5, name: 'MF 7250 PowerUp', hp: '50 HP', feature: 'Heavy-duty performance', marathi: 'दमदार हेवी-ड्यूटी कामगिरी', img: '/images/mf_7250_powerup_1781420256417.jpg' },
+  { id: 6, name: 'MF 9500 Eco', hp: '50 HP', feature: 'Smart series for smart farmers', marathi: 'स्मार्ट शेतकऱ्यांसाठी स्मार्ट मालिका', img: '/images/mf_9500_eco_1781420273457.jpg' },
+  { id: 7, name: 'MF 5118 4WD', hp: '20 HP', feature: 'Efficient mini tractor', marathi: 'कार्यक्षम मिनी ट्रॅक्टर', img: '/images/mf_5118_4wd_1781420290161.jpg' },
+  { id: 8, name: 'MF 5225 DI', hp: '25 HP', feature: 'Best option for versatile farming', marathi: 'बहुमुखी शेतीसाठी उत्तम पर्याय', img: '/images/mf_5225_di_1781416353233.jpg' },
+  { id: 9, name: 'MF 7235 DI', hp: '35 HP', feature: 'Equipped with advanced technology', marathi: 'प्रगत तंत्रज्ञानाने सज्ज', img: '/images/mf_7235_di_1781416366866.jpg' },
+  { id: 10, name: '246 Massey Dynatrack', hp: '46 HP', feature: 'Smart tractor for precision farming', marathi: 'अचूक शेतीसाठी स्मार्ट ट्रॅक्टर', img: '/images/mf_246_dynasmart_1781416379804.jpg' },
+  { id: 11, name: 'MF 254 Massey Dynatrack', hp: '50 HP', feature: 'Versatile and efficient power', marathi: 'अष्टपैलू आणि कार्यक्षम शक्ती', img: '/images/mf_254_dynasmart_1781416393710.jpg' },
+  { id: 12, name: '254 Massey Dynatrack Super Stork', hp: '50 HP', feature: 'Ultimate power and performance', marathi: 'अंतिम शक्ती आणि कार्यक्षमता', img: '/images/mf_254_super_stork_1781417732451.jpg' },
+  { id: 13, name: 'MF 7250 DI Challenger', hp: '50 HP', feature: 'Ready for challenging terrains', marathi: 'आव्हानात्मक क्षेत्रांसाठी सज्ज', img: '/images/mf_7250_challenger_1781416406643.jpg' },
+  { id: 14, name: 'MF 8055 Boss', hp: '50 HP', feature: 'Truly the boss of the field', marathi: 'शेतीचा खऱ्या अर्थाने बॉस', img: '/images/mf_8055_boss_1781416422305.jpg' },
+  { id: 15, name: 'MF 9563', hp: '60 HP', feature: 'Big power for massive challenges', marathi: 'मोठ्या आव्हानांसाठी मोठी शक्ती', img: '/images/mf_9563_tractor_1781416436026.jpg' },
 ];
 
 interface ModelsProps {
