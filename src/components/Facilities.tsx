@@ -42,7 +42,7 @@ export default function Facilities() {
 
   return (
     <section id="facilities" className="py-20 bg-slate-900 text-white relative overflow-hidden">
-      <div className="max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 relative z-10">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-2xl text-center md:text-left mx-auto md:mx-0">
             <h2 className="text-xs font-black text-red-500 tracking-[0.3em] uppercase mb-4">Infrastructure</h2>
@@ -55,12 +55,12 @@ export default function Facilities() {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-4 mb-2">
-             <div className="flex items-center gap-3 text-xs font-black text-white bg-white/5 px-6 py-3 rounded-2xl border border-white/10 uppercase tracking-widest">
-                <MapPin className="w-4 h-4 text-red-600" /> Shevgaon
-             </div>
-             <div className="flex items-center gap-3 text-xs font-black text-white bg-white/5 px-6 py-3 rounded-2xl border border-white/10 uppercase tracking-widest">
-                <MapPin className="w-4 h-4 text-red-600" /> Pathardi
-             </div>
+             <a href="https://www.google.com/maps/search/?api=1&query=Vrudheshwar+Tractors+Shevgaon" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-xs font-black text-white bg-white/5 px-6 py-3 rounded-2xl border border-white/10 uppercase tracking-widest hover:bg-white/10 hover:border-red-600 transition-all group">
+                <MapPin className="w-4 h-4 text-red-600 group-hover:scale-110 transition-transform" /> Shevgaon
+             </a>
+             <a href="https://www.google.com/maps/search/?api=1&query=Vrudheshwar+Tractors+Pathardi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-xs font-black text-white bg-white/5 px-6 py-3 rounded-2xl border border-white/10 uppercase tracking-widest hover:bg-white/10 hover:border-red-600 transition-all group">
+                <MapPin className="w-4 h-4 text-red-600 group-hover:scale-110 transition-transform" /> Pathardi
+             </a>
           </div>
         </div>
 

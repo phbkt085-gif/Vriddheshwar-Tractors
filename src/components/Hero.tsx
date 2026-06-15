@@ -29,7 +29,7 @@ export default function Hero({ onEnquire }: HeroProps) {
     <section id="home" className="relative min-h-[80vh] md:min-h-screen flex items-center pt-24 lg:pt-32 pb-12 lg:pb-24 overflow-hidden bg-slate-900">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-slate-800 via-slate-900 to-black z-0" />
       
-      <div className="relative z-10 w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="relative z-10 w-full max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           
           <div className="max-w-3xl text-center lg:text-left order-2 lg:order-1">

@@ -33,7 +33,7 @@ export default function About() {
 
   return (
     <section id="about" className="py-20 bg-white relative overflow-hidden">
-      <div className="max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20 items-center">
           <div className="lg:col-span-6 text-center lg:text-left order-2 lg:order-1">
             <h2 className="text-sm font-black text-red-600 tracking-[0.2em] uppercase mb-4">Our Legacy</h2>

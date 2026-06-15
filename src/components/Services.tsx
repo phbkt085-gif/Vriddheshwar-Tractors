@@ -34,7 +34,7 @@ export default function Services({ onServiceSelect }: ServicesProps) {
 
   return (
     <section id="services" className="py-20 bg-white">
-      <div className="max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-black text-red-600 tracking-[0.3em] uppercase mb-4">Total Support</h2>
           <h3 className="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-4 leading-none">

@@ -3,10 +3,10 @@ import { Phone, MapPin, Facebook, Instagram, LocateFixed } from 'lucide-react';
 export default function Footer() {
   return (
     <footer id="contact" className="bg-slate-950 text-slate-300 pt-20 pb-10">
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
           
-          <div className="md:col-span-2 lg:col-span-4">
+          <div className="md:col-span-2 lg:col-span-4 flex flex-col items-center md:items-start text-center md:text-left">
              <div className="mb-6">
                 <span className="text-2xl font-extrabold text-white tracking-tight">Vrudheshwar</span><br/>
                 <span className="text-sm font-semibold tracking-widest text-red-500 uppercase">Tractors</span>
@@ -14,45 +14,55 @@ export default function Footer() {
              <p className="text-slate-400 mb-6 leading-relaxed">
                Authorised dealer for Massey Ferguson and TAFE. Committed to serving the farming community in Maharashtra with excellence.
              </p>
-             <div className="flex gap-4">
-               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
+             <div className="flex justify-center md:justify-start gap-4">
+               <a href="https://www.facebook.com/share/18yqYRWC8L/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
                   <Facebook className="w-5 h-5" />
                </a>
-               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
+               <a href="https://www.instagram.com/vrudheshwar_tractors?igsh=bTJnbHg2YWs3MWJl" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
                   <Instagram className="w-5 h-5" />
                </a>
-               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
+               <a href="https://www.google.com/maps/search/?api=1&query=Vrudheshwar+Tractors+Shevgaon" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors">
                   <LocateFixed className="w-5 h-5" />
                </a>
              </div>
           </div>
 
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-4 flex flex-col items-center md:items-start text-center md:text-left text-center md:text-left">
              <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Branch 1: Shevgaon (शेवगाव)</h4>
-             <div className="flex items-start gap-3 mb-4">
-               <MapPin className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-               <p className="text-slate-400">Near Bade Hospital,<br />Nevasa Road, Shevgaon</p>
-             </div>
-             <div className="flex items-center gap-3">
-               <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
-               <a href="tel:+919545886257" className="text-slate-400 hover:text-white">+91 9545886257</a>
-             </div>
-          </div>
-
-          <div className="lg:col-span-4">
-             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Branch 2: Pathardi (पाथर्डी)</h4>
-             <div className="flex items-start gap-3 mb-4">
-               <MapPin className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-               <p className="text-slate-400">Opp. Bharat Petrol Pump,<br />Koradgaon Road, Pathardi</p>
-             </div>
-             <div className="flex flex-col gap-2">
+             <a href="https://www.google.com/maps/search/?api=1&query=Vrudheshwar+Tractors+Shevgaon" target="_blank" rel="noopener noreferrer" className="flex items-start justify-center md:justify-start gap-3 mb-4 group text-center md:text-left">
+               <MapPin className="w-5 h-5 text-red-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
+               <p className="text-slate-400 group-hover:text-white transition-colors">Near Bade Hospital,<br />Nevasa Road, Shevgaon</p>
+             </a>
+             <div className="flex flex-col gap-2 items-center md:items-start">
+               <div className="flex items-center gap-3">
+                 <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
+                 <a href="tel:+919764979696" className="text-slate-400 hover:text-white">+91 9764979696</a>
+               </div>
+               <div className="flex items-center gap-3">
+                 <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
+                 <a href="tel:+917020889300" className="text-slate-400 hover:text-white">+91 7020889300</a>
+               </div>
                <div className="flex items-center gap-3">
                  <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
                  <a href="tel:+919763994598" className="text-slate-400 hover:text-white">+91 9763994598</a>
                </div>
+             </div>
+          </div>
+
+          <div className="lg:col-span-4 flex flex-col items-center md:items-start text-center md:text-left">
+             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Branch 2: Pathardi (पाथर्डी)</h4>
+             <a href="https://www.google.com/maps/search/?api=1&query=Vrudheshwar+Tractors+Pathardi" target="_blank" rel="noopener noreferrer" className="flex items-start justify-center md:justify-start gap-3 mb-4 group text-center md:text-left">
+               <MapPin className="w-5 h-5 text-red-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
+               <p className="text-slate-400 group-hover:text-white transition-colors">Opp. Bharat Petrol Pump,<br />Koradgaon Road, Pathardi</p>
+             </a>
+             <div className="flex flex-col gap-2 items-center md:items-start">
                <div className="flex items-center gap-3">
                  <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
-                 <a href="tel:+919021581070" className="text-slate-400 hover:text-white">+91 9021581070</a>
+                 <a href="tel:+918668400550" className="text-slate-400 hover:text-white">+91 8668400550</a>
+               </div>
+               <div className="flex items-center gap-3">
+                 <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
+                 <a href="tel:+917020889300" className="text-slate-400 hover:text-white">+91 7020889300</a>
                </div>
              </div>
           </div>

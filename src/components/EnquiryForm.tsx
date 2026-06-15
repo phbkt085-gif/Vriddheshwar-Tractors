@@ -70,7 +70,7 @@ export default function EnquiryForm({ initialModel, initialMessage }: EnquiryFor
         <div className="absolute w-[600px] h-[600px] bg-slate-800 rounded-full -bottom-48 -left-48 blur-[100px]"></div>
       </div>
       
-      <div className="max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 relative z-10">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-10 xl:px-14 relative z-10">
         <div className="bg-white rounded-[3rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col lg:flex-row">
           
           <div className="lg:w-5/12 bg-slate-900 p-10 lg:p-20 text-white flex flex-col justify-center relative overflow-hidden">
